@@ -1,0 +1,97 @@
+.cat {
+
+}
+
+.catItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filterButton {
+    background: #F9F9F9;
+    color: #2C2C2C;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1%;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 14px 30px 17px;
+    transition: 0.1s linear;
+    margin-right: 9px;
+}
+
+.filterButton:hover {
+    background: #282828;
+    color: #FFFFFF;
+}
+
+.filterOnClick {
+    background: #282828;
+    color: #FFFFFF;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.popup {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 13px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.5%;
+    color: #2C2C2C;
+    margin-right: 8px;
+}
+
+.span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.5%;
+    color: #FE5F1E;
+    border: none;
+    border-bottom: 1px dashed #FE5F1E;
+    cursor: pointer;
+    background: none;
+    text-transform: lowercase;
+}
+
+.sortButton {
+    padding: 10px 22px 11px 14px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.5%;
+    transition: 0.1s linear;
+}
+
+.sortButton:hover {
+    background: #FE5F1E0D;
+}
+
+.sortOnClick {
+    background: #FE5F1E0D;
+    color: #FE5F1E;
+    font-weight: 700;
+}

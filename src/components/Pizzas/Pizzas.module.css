@@ -1,0 +1,25 @@
+.prodItems {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 1%;
+    margin-bottom: 35px;
+}
+
+.pizzas {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pagination {
+    background: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
